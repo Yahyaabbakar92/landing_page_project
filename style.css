@@ -64,7 +64,9 @@ button {
     justify-content: space-between;
 }
 
-#header {
+#header,
+#content1,
+#content2 {
     padding: 20px 200px 100px 200px;
 }
 
@@ -77,4 +79,43 @@ button {
 
 .txtbtn1 {
     width: 450px;
+}
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 150px 150px 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs {
+    height: auto;
+    max-width: 180px;
+    border: solid #3882f6;
+    border-radius: 12px;
+} 
+
+#content1 h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    /* text-align: center; */
+    padding: 20px 20px 50px 20px;
+}
+
+figure {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+    color: gray;
 }
