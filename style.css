@@ -22,12 +22,14 @@
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 10px;
 }
 
 .intro h1 {
@@ -47,6 +49,32 @@ button {
 }
 
 .img {
+    width: 500px;
+    height: 250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header {
+    padding: 20px 200px 100px 200px;
+}
+
+.signupbtn1 {
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.txtbtn1 {
     width: 450px;
-    height: 200px;
 }
