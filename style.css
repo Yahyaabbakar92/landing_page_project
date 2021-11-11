@@ -119,3 +119,22 @@ figcaption {
     text-align: center;
     color: gray;
 }
+
+#content2 h1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding-top: 100px;
+}
+
+#content2 p {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+#content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
