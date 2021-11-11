@@ -155,5 +155,12 @@ figcaption {
 }
 
 .signupbtn2 {
-    border: white solid 2px;
+    border: #f9faf8 solid 2px;
+}
+
+#footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
 }
